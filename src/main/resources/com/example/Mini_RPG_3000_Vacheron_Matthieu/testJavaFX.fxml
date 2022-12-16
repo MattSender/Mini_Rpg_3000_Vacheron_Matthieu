@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="862.0" prefWidth="863.0" spacing="20.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.Mini_RPG_3000_Vacheron_Matthieu.Utils.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <AnchorPane prefHeight="786.0" prefWidth="844.0">
+      <children>
+         <Label layoutX="370.0" layoutY="312.0" prefHeight="17.0" prefWidth="84.0" text="MINI RPG 3000" />
+          <Button layoutX="364.0" layoutY="399.0" onAction="jouer" prefHeight="25.0" prefWidth="95.0" text="Commencer" />
+         <Button layoutX="714.0" layoutY="755.0" onAction="quitter" prefHeight="17.0" prefWidth="95.0" text="Quitter" />
+         <DialogPane layoutX="172.0" layoutY="-220.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="480.0">
+             <header>
+               <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="320.0" />
+             </header>
+             <expandableContent>
+               <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="320.0" />
+             </expandableContent>
+         </DialogPane>
+         <Label layoutX="358.0" layoutY="342.0" prefHeight="17.0" prefWidth="108.0" text="ARENE DE TEKALISS" />
+      </children>
+   </AnchorPane>
+</VBox>
